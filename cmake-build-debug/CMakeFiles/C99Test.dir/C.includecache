@@ -6,11 +6,9 @@
 
 #IncludeRegexTransform: 
 
-E:/CLionProjects/C99Test/Structures/DeckOfCards.c
+E:/CLionProjects/C99Test/Excercises/CircularPrime.c
 stdio.h
 -
-stdlib.h
--
-time.h
+math.h
 -
 

@@ -76,7 +76,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="E:/CLionProjects/C99Test/Excercises/CircularPrime.c">
+			<Option target="C99Test"/>
+		</Unit>
 		<Unit filename="E:/CLionProjects/C99Test/FIleIO/CopyPaste.c">
+			<Option target="C99Test"/>
+		</Unit>
+		<Unit filename="E:/CLionProjects/C99Test/Misc/ExternalStorageClass.c">
 			<Option target="C99Test"/>
 		</Unit>
 		<Unit filename="E:/CLionProjects/C99Test/Structures/DeckOfCards.c">

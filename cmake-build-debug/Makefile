@@ -122,6 +122,33 @@ C99Test/fast:
 	$(MAKE) -f CMakeFiles\C99Test.dir\build.make CMakeFiles/C99Test.dir/build
 .PHONY : C99Test/fast
 
+Excercises/CircularPrime.obj: Excercises/CircularPrime.c.obj
+
+.PHONY : Excercises/CircularPrime.obj
+
+# target to build an object file
+Excercises/CircularPrime.c.obj:
+	$(MAKE) -f CMakeFiles\C99Test.dir\build.make CMakeFiles/C99Test.dir/Excercises/CircularPrime.c.obj
+.PHONY : Excercises/CircularPrime.c.obj
+
+Excercises/CircularPrime.i: Excercises/CircularPrime.c.i
+
+.PHONY : Excercises/CircularPrime.i
+
+# target to preprocess a source file
+Excercises/CircularPrime.c.i:
+	$(MAKE) -f CMakeFiles\C99Test.dir\build.make CMakeFiles/C99Test.dir/Excercises/CircularPrime.c.i
+.PHONY : Excercises/CircularPrime.c.i
+
+Excercises/CircularPrime.s: Excercises/CircularPrime.c.s
+
+.PHONY : Excercises/CircularPrime.s
+
+# target to generate assembly for a file
+Excercises/CircularPrime.c.s:
+	$(MAKE) -f CMakeFiles\C99Test.dir\build.make CMakeFiles/C99Test.dir/Excercises/CircularPrime.c.s
+.PHONY : Excercises/CircularPrime.c.s
+
 FIleIO/CopyPaste.obj: FIleIO/CopyPaste.c.obj
 
 .PHONY : FIleIO/CopyPaste.obj
@@ -148,6 +175,33 @@ FIleIO/CopyPaste.s: FIleIO/CopyPaste.c.s
 FIleIO/CopyPaste.c.s:
 	$(MAKE) -f CMakeFiles\C99Test.dir\build.make CMakeFiles/C99Test.dir/FIleIO/CopyPaste.c.s
 .PHONY : FIleIO/CopyPaste.c.s
+
+Misc/ExternalStorageClass.obj: Misc/ExternalStorageClass.c.obj
+
+.PHONY : Misc/ExternalStorageClass.obj
+
+# target to build an object file
+Misc/ExternalStorageClass.c.obj:
+	$(MAKE) -f CMakeFiles\C99Test.dir\build.make CMakeFiles/C99Test.dir/Misc/ExternalStorageClass.c.obj
+.PHONY : Misc/ExternalStorageClass.c.obj
+
+Misc/ExternalStorageClass.i: Misc/ExternalStorageClass.c.i
+
+.PHONY : Misc/ExternalStorageClass.i
+
+# target to preprocess a source file
+Misc/ExternalStorageClass.c.i:
+	$(MAKE) -f CMakeFiles\C99Test.dir\build.make CMakeFiles/C99Test.dir/Misc/ExternalStorageClass.c.i
+.PHONY : Misc/ExternalStorageClass.c.i
+
+Misc/ExternalStorageClass.s: Misc/ExternalStorageClass.c.s
+
+.PHONY : Misc/ExternalStorageClass.s
+
+# target to generate assembly for a file
+Misc/ExternalStorageClass.c.s:
+	$(MAKE) -f CMakeFiles\C99Test.dir\build.make CMakeFiles/C99Test.dir/Misc/ExternalStorageClass.c.s
+.PHONY : Misc/ExternalStorageClass.c.s
 
 Structures/DeckOfCards.obj: Structures/DeckOfCards.c.obj
 
@@ -212,9 +266,15 @@ help:
 	@echo ... C99Test
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... Excercises/CircularPrime.obj
+	@echo ... Excercises/CircularPrime.i
+	@echo ... Excercises/CircularPrime.s
 	@echo ... FIleIO/CopyPaste.obj
 	@echo ... FIleIO/CopyPaste.i
 	@echo ... FIleIO/CopyPaste.s
+	@echo ... Misc/ExternalStorageClass.obj
+	@echo ... Misc/ExternalStorageClass.i
+	@echo ... Misc/ExternalStorageClass.s
 	@echo ... Structures/DeckOfCards.obj
 	@echo ... Structures/DeckOfCards.i
 	@echo ... Structures/DeckOfCards.s
