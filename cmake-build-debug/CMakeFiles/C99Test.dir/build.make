@@ -59,67 +59,80 @@ include CMakeFiles/C99Test.dir/flags.make
 CMakeFiles/C99Test.dir/FIleIO/CopyPaste.c.obj: CMakeFiles/C99Test.dir/flags.make
 CMakeFiles/C99Test.dir/FIleIO/CopyPaste.c.obj: ../FIleIO/CopyPaste.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\CLionProjects\C99Test\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/C99Test.dir/FIleIO/CopyPaste.c.obj"
-	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\C99Test.dir\FIleIO\CopyPaste.c.obj   -c E:\CLionProjects\C99Test\FIleIO\CopyPaste.c
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\C99Test.dir\FIleIO\CopyPaste.c.obj   -c E:\CLionProjects\C99Test\FIleIO\CopyPaste.c
 
 CMakeFiles/C99Test.dir/FIleIO/CopyPaste.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/C99Test.dir/FIleIO/CopyPaste.c.i"
-	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\CLionProjects\C99Test\FIleIO\CopyPaste.c > CMakeFiles\C99Test.dir\FIleIO\CopyPaste.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\CLionProjects\C99Test\FIleIO\CopyPaste.c > CMakeFiles\C99Test.dir\FIleIO\CopyPaste.c.i
 
 CMakeFiles/C99Test.dir/FIleIO/CopyPaste.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C99Test.dir/FIleIO/CopyPaste.c.s"
-	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\CLionProjects\C99Test\FIleIO\CopyPaste.c -o CMakeFiles\C99Test.dir\FIleIO\CopyPaste.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\CLionProjects\C99Test\FIleIO\CopyPaste.c -o CMakeFiles\C99Test.dir\FIleIO\CopyPaste.c.s
 
 CMakeFiles/C99Test.dir/Structures/SimpleStructure.c.obj: CMakeFiles/C99Test.dir/flags.make
 CMakeFiles/C99Test.dir/Structures/SimpleStructure.c.obj: ../Structures/SimpleStructure.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\CLionProjects\C99Test\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/C99Test.dir/Structures/SimpleStructure.c.obj"
-	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\C99Test.dir\Structures\SimpleStructure.c.obj   -c E:\CLionProjects\C99Test\Structures\SimpleStructure.c
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\C99Test.dir\Structures\SimpleStructure.c.obj   -c E:\CLionProjects\C99Test\Structures\SimpleStructure.c
 
 CMakeFiles/C99Test.dir/Structures/SimpleStructure.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/C99Test.dir/Structures/SimpleStructure.c.i"
-	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\CLionProjects\C99Test\Structures\SimpleStructure.c > CMakeFiles\C99Test.dir\Structures\SimpleStructure.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\CLionProjects\C99Test\Structures\SimpleStructure.c > CMakeFiles\C99Test.dir\Structures\SimpleStructure.c.i
 
 CMakeFiles/C99Test.dir/Structures/SimpleStructure.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C99Test.dir/Structures/SimpleStructure.c.s"
-	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\CLionProjects\C99Test\Structures\SimpleStructure.c -o CMakeFiles\C99Test.dir\Structures\SimpleStructure.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\CLionProjects\C99Test\Structures\SimpleStructure.c -o CMakeFiles\C99Test.dir\Structures\SimpleStructure.c.s
 
 CMakeFiles/C99Test.dir/Structures/DeckOfCards.c.obj: CMakeFiles/C99Test.dir/flags.make
 CMakeFiles/C99Test.dir/Structures/DeckOfCards.c.obj: ../Structures/DeckOfCards.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\CLionProjects\C99Test\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/C99Test.dir/Structures/DeckOfCards.c.obj"
-	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\C99Test.dir\Structures\DeckOfCards.c.obj   -c E:\CLionProjects\C99Test\Structures\DeckOfCards.c
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\C99Test.dir\Structures\DeckOfCards.c.obj   -c E:\CLionProjects\C99Test\Structures\DeckOfCards.c
 
 CMakeFiles/C99Test.dir/Structures/DeckOfCards.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/C99Test.dir/Structures/DeckOfCards.c.i"
-	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\CLionProjects\C99Test\Structures\DeckOfCards.c > CMakeFiles\C99Test.dir\Structures\DeckOfCards.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\CLionProjects\C99Test\Structures\DeckOfCards.c > CMakeFiles\C99Test.dir\Structures\DeckOfCards.c.i
 
 CMakeFiles/C99Test.dir/Structures/DeckOfCards.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C99Test.dir/Structures/DeckOfCards.c.s"
-	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\CLionProjects\C99Test\Structures\DeckOfCards.c -o CMakeFiles\C99Test.dir\Structures\DeckOfCards.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\CLionProjects\C99Test\Structures\DeckOfCards.c -o CMakeFiles\C99Test.dir\Structures\DeckOfCards.c.s
 
 CMakeFiles/C99Test.dir/Excercises/CircularPrime.c.obj: CMakeFiles/C99Test.dir/flags.make
 CMakeFiles/C99Test.dir/Excercises/CircularPrime.c.obj: ../Excercises/CircularPrime.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\CLionProjects\C99Test\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/C99Test.dir/Excercises/CircularPrime.c.obj"
-	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\C99Test.dir\Excercises\CircularPrime.c.obj   -c E:\CLionProjects\C99Test\Excercises\CircularPrime.c
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\C99Test.dir\Excercises\CircularPrime.c.obj   -c E:\CLionProjects\C99Test\Excercises\CircularPrime.c
 
 CMakeFiles/C99Test.dir/Excercises/CircularPrime.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/C99Test.dir/Excercises/CircularPrime.c.i"
-	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\CLionProjects\C99Test\Excercises\CircularPrime.c > CMakeFiles\C99Test.dir\Excercises\CircularPrime.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\CLionProjects\C99Test\Excercises\CircularPrime.c > CMakeFiles\C99Test.dir\Excercises\CircularPrime.c.i
 
 CMakeFiles/C99Test.dir/Excercises/CircularPrime.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C99Test.dir/Excercises/CircularPrime.c.s"
-	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\CLionProjects\C99Test\Excercises\CircularPrime.c -o CMakeFiles\C99Test.dir\Excercises\CircularPrime.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\CLionProjects\C99Test\Excercises\CircularPrime.c -o CMakeFiles\C99Test.dir\Excercises\CircularPrime.c.s
 
 CMakeFiles/C99Test.dir/Misc/ExternalStorageClass.c.obj: CMakeFiles/C99Test.dir/flags.make
 CMakeFiles/C99Test.dir/Misc/ExternalStorageClass.c.obj: ../Misc/ExternalStorageClass.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\CLionProjects\C99Test\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/C99Test.dir/Misc/ExternalStorageClass.c.obj"
-	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\C99Test.dir\Misc\ExternalStorageClass.c.obj   -c E:\CLionProjects\C99Test\Misc\ExternalStorageClass.c
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\C99Test.dir\Misc\ExternalStorageClass.c.obj   -c E:\CLionProjects\C99Test\Misc\ExternalStorageClass.c
 
 CMakeFiles/C99Test.dir/Misc/ExternalStorageClass.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/C99Test.dir/Misc/ExternalStorageClass.c.i"
-	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\CLionProjects\C99Test\Misc\ExternalStorageClass.c > CMakeFiles\C99Test.dir\Misc\ExternalStorageClass.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\CLionProjects\C99Test\Misc\ExternalStorageClass.c > CMakeFiles\C99Test.dir\Misc\ExternalStorageClass.c.i
 
 CMakeFiles/C99Test.dir/Misc/ExternalStorageClass.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C99Test.dir/Misc/ExternalStorageClass.c.s"
-	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\CLionProjects\C99Test\Misc\ExternalStorageClass.c -o CMakeFiles\C99Test.dir\Misc\ExternalStorageClass.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\CLionProjects\C99Test\Misc\ExternalStorageClass.c -o CMakeFiles\C99Test.dir\Misc\ExternalStorageClass.c.s
+
+CMakeFiles/C99Test.dir/Excercises/MatrixMaxProduct.c.obj: CMakeFiles/C99Test.dir/flags.make
+CMakeFiles/C99Test.dir/Excercises/MatrixMaxProduct.c.obj: ../Excercises/MatrixMaxProduct.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\CLionProjects\C99Test\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/C99Test.dir/Excercises/MatrixMaxProduct.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\C99Test.dir\Excercises\MatrixMaxProduct.c.obj   -c E:\CLionProjects\C99Test\Excercises\MatrixMaxProduct.c
+
+CMakeFiles/C99Test.dir/Excercises/MatrixMaxProduct.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/C99Test.dir/Excercises/MatrixMaxProduct.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\CLionProjects\C99Test\Excercises\MatrixMaxProduct.c > CMakeFiles\C99Test.dir\Excercises\MatrixMaxProduct.c.i
+
+CMakeFiles/C99Test.dir/Excercises/MatrixMaxProduct.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C99Test.dir/Excercises/MatrixMaxProduct.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\CLionProjects\C99Test\Excercises\MatrixMaxProduct.c -o CMakeFiles\C99Test.dir\Excercises\MatrixMaxProduct.c.s
 
 # Object files for target C99Test
 C99Test_OBJECTS = \
@@ -127,7 +140,8 @@ C99Test_OBJECTS = \
 "CMakeFiles/C99Test.dir/Structures/SimpleStructure.c.obj" \
 "CMakeFiles/C99Test.dir/Structures/DeckOfCards.c.obj" \
 "CMakeFiles/C99Test.dir/Excercises/CircularPrime.c.obj" \
-"CMakeFiles/C99Test.dir/Misc/ExternalStorageClass.c.obj"
+"CMakeFiles/C99Test.dir/Misc/ExternalStorageClass.c.obj" \
+"CMakeFiles/C99Test.dir/Excercises/MatrixMaxProduct.c.obj"
 
 # External object files for target C99Test
 C99Test_EXTERNAL_OBJECTS =
@@ -137,11 +151,12 @@ C99Test.exe: CMakeFiles/C99Test.dir/Structures/SimpleStructure.c.obj
 C99Test.exe: CMakeFiles/C99Test.dir/Structures/DeckOfCards.c.obj
 C99Test.exe: CMakeFiles/C99Test.dir/Excercises/CircularPrime.c.obj
 C99Test.exe: CMakeFiles/C99Test.dir/Misc/ExternalStorageClass.c.obj
+C99Test.exe: CMakeFiles/C99Test.dir/Excercises/MatrixMaxProduct.c.obj
 C99Test.exe: CMakeFiles/C99Test.dir/build.make
 C99Test.exe: CMakeFiles/C99Test.dir/linklibs.rsp
 C99Test.exe: CMakeFiles/C99Test.dir/objects1.rsp
 C99Test.exe: CMakeFiles/C99Test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\CLionProjects\C99Test\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable C99Test.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\CLionProjects\C99Test\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable C99Test.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\C99Test.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

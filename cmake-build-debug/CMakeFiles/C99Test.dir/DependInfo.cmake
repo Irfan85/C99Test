@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "E:/CLionProjects/C99Test/Excercises/CircularPrime.c" "E:/CLionProjects/C99Test/cmake-build-debug/CMakeFiles/C99Test.dir/Excercises/CircularPrime.c.obj"
+  "E:/CLionProjects/C99Test/Excercises/MatrixMaxProduct.c" "E:/CLionProjects/C99Test/cmake-build-debug/CMakeFiles/C99Test.dir/Excercises/MatrixMaxProduct.c.obj"
   "E:/CLionProjects/C99Test/FIleIO/CopyPaste.c" "E:/CLionProjects/C99Test/cmake-build-debug/CMakeFiles/C99Test.dir/FIleIO/CopyPaste.c.obj"
   "E:/CLionProjects/C99Test/Misc/ExternalStorageClass.c" "E:/CLionProjects/C99Test/cmake-build-debug/CMakeFiles/C99Test.dir/Misc/ExternalStorageClass.c.obj"
   "E:/CLionProjects/C99Test/Structures/DeckOfCards.c" "E:/CLionProjects/C99Test/cmake-build-debug/CMakeFiles/C99Test.dir/Structures/DeckOfCards.c.obj"

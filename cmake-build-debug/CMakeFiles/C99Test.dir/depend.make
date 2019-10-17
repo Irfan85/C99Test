@@ -3,6 +3,8 @@
 
 CMakeFiles/C99Test.dir/Excercises/CircularPrime.c.obj: ../Excercises/CircularPrime.c
 
+CMakeFiles/C99Test.dir/Excercises/MatrixMaxProduct.c.obj: ../Excercises/MatrixMaxProduct.c
+
 CMakeFiles/C99Test.dir/FIleIO/CopyPaste.c.obj: ../FIleIO/CopyPaste.c
 
 CMakeFiles/C99Test.dir/Misc/ExternalStorageClass.c.obj: ../Misc/ExternalStorageClass.c

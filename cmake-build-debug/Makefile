@@ -149,6 +149,33 @@ Excercises/CircularPrime.c.s:
 	$(MAKE) -f CMakeFiles\C99Test.dir\build.make CMakeFiles/C99Test.dir/Excercises/CircularPrime.c.s
 .PHONY : Excercises/CircularPrime.c.s
 
+Excercises/MatrixMaxProduct.obj: Excercises/MatrixMaxProduct.c.obj
+
+.PHONY : Excercises/MatrixMaxProduct.obj
+
+# target to build an object file
+Excercises/MatrixMaxProduct.c.obj:
+	$(MAKE) -f CMakeFiles\C99Test.dir\build.make CMakeFiles/C99Test.dir/Excercises/MatrixMaxProduct.c.obj
+.PHONY : Excercises/MatrixMaxProduct.c.obj
+
+Excercises/MatrixMaxProduct.i: Excercises/MatrixMaxProduct.c.i
+
+.PHONY : Excercises/MatrixMaxProduct.i
+
+# target to preprocess a source file
+Excercises/MatrixMaxProduct.c.i:
+	$(MAKE) -f CMakeFiles\C99Test.dir\build.make CMakeFiles/C99Test.dir/Excercises/MatrixMaxProduct.c.i
+.PHONY : Excercises/MatrixMaxProduct.c.i
+
+Excercises/MatrixMaxProduct.s: Excercises/MatrixMaxProduct.c.s
+
+.PHONY : Excercises/MatrixMaxProduct.s
+
+# target to generate assembly for a file
+Excercises/MatrixMaxProduct.c.s:
+	$(MAKE) -f CMakeFiles\C99Test.dir\build.make CMakeFiles/C99Test.dir/Excercises/MatrixMaxProduct.c.s
+.PHONY : Excercises/MatrixMaxProduct.c.s
+
 FIleIO/CopyPaste.obj: FIleIO/CopyPaste.c.obj
 
 .PHONY : FIleIO/CopyPaste.obj
@@ -269,6 +296,9 @@ help:
 	@echo ... Excercises/CircularPrime.obj
 	@echo ... Excercises/CircularPrime.i
 	@echo ... Excercises/CircularPrime.s
+	@echo ... Excercises/MatrixMaxProduct.obj
+	@echo ... Excercises/MatrixMaxProduct.i
+	@echo ... Excercises/MatrixMaxProduct.s
 	@echo ... FIleIO/CopyPaste.obj
 	@echo ... FIleIO/CopyPaste.i
 	@echo ... FIleIO/CopyPaste.s

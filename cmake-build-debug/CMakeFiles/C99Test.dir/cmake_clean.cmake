@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "C99Test.exe.manifest"
   "C99Test.pdb"
   "CMakeFiles/C99Test.dir/Excercises/CircularPrime.c.obj"
+  "CMakeFiles/C99Test.dir/Excercises/MatrixMaxProduct.c.obj"
   "CMakeFiles/C99Test.dir/FIleIO/CopyPaste.c.obj"
   "CMakeFiles/C99Test.dir/Misc/ExternalStorageClass.c.obj"
   "CMakeFiles/C99Test.dir/Structures/DeckOfCards.c.obj"

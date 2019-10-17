@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <math.h>
 
 int is_prime(int num) {
     int div_count = 0;
@@ -15,10 +14,18 @@ int is_prime(int num) {
     return 1;
 }
 
+int to_the_power(int b, int p){
+    int res = 1;
+    for(int i = 0; i < p; i++){
+        res *= b;
+    }
+    return res;
+}
+
 int is_circular_prime(int input) {
     int input_cpy = input;
 
-    input_cpy = input;
+    //input_cpy = input;
     //num of division + 1
     // per num: modulus
     //TODO: Generate Cyclic Permutations
@@ -38,7 +45,7 @@ int is_circular_prime(int input) {
 
     digit_number++;
 
-    /* TESTING
+   /* TESTING
     printf("%d\n", digit_number);*/
 
     //DONE: Determine how many digits are in input
@@ -56,6 +63,7 @@ int is_circular_prime(int input) {
     }
 
     /* TESTING
+    printf("DEBUGGING:");
     for(int i = 0; i < digit_number; i++){
         printf("%d", input_digit_array[i]);
     }
@@ -80,6 +88,7 @@ int is_circular_prime(int input) {
     }
 
     /* TESTING
+    printf("DEBUGGING:");
     for(int i = 0; i < digit_number; i++){
         for(int j = 0; j < digit_number; j++){
             printf("%d", cyclic_permutation_array[i][j]);
@@ -95,12 +104,14 @@ int is_circular_prime(int input) {
     for (int i = 0; i < digit_number; i++) {
         int num = 0, power = 0;
         for (int j = digit_number - 1; j >= 0; j--) {
-            num += cyclic_permutation_array[i][j] * (int) pow(10, power++);
+            //printf("POWER: %d\n", power);
+            num += (cyclic_permutation_array[i][j] * to_the_power(10, power++));
         }
         generated_numbers[i] = num;
     }
 
     /* TESTING
+    printf("For %d,\n", input);
     for(int i = 0; i < digit_number; i++){
         printf("Number: %d\n", generated_numbers[i]);
     }*/
@@ -124,7 +135,7 @@ int is_circular_prime(int input) {
     return 1;
 }
 
-int main() {
+int CircularPrime_main() {
     int n;
     scanf("%d", &n);
 
