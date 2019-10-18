@@ -14,6 +14,8 @@ int is_prime(int num) {
     return 1;
 }
 
+// The pow() function of C returns double value which causes inaccuracy while dealing with int.
+// So, I made my own power function
 int to_the_power(int b, int p){
     int res = 1;
     for(int i = 0; i < p; i++){
@@ -25,13 +27,7 @@ int to_the_power(int b, int p){
 int is_circular_prime(int input) {
     int input_cpy = input;
 
-    //input_cpy = input;
-    //num of division + 1
-    // per num: modulus
-    //TODO: Generate Cyclic Permutations
-
-
-    //TODO: Determine how many digits are in input
+    // Determine how many digits are in input
     int digit_number = 0;
 
     if (input_cpy >= 10) {
@@ -48,9 +44,9 @@ int is_circular_prime(int input) {
    /* TESTING
     printf("%d\n", digit_number);*/
 
-    //DONE: Determine how many digits are in input
+    // DONE: Determine how many digits are in input
 
-    //TODO: Turn the input to an array of digits that it contains
+    // Turn the input to an array of digits that it contains
     input_cpy = input;
     int input_digit_array[digit_number];
 
@@ -71,7 +67,7 @@ int is_circular_prime(int input) {
 
     //DONE: Turn the input to an array of digits that it contains
 
-    //TODO: Make cyclic permutations
+    // Make cyclic permutations
     int cyclic_permutation_array[digit_number][digit_number];
 
     int start_pos = 0, ignore_pos = 0;
@@ -98,13 +94,12 @@ int is_circular_prime(int input) {
 
     // DONE: Make cyclic permutations
 
-    //TODO: Convert the arrays to numbers
+    // Convert the arrays to numbers
     int generated_numbers[digit_number];
 
     for (int i = 0; i < digit_number; i++) {
         int num = 0, power = 0;
         for (int j = digit_number - 1; j >= 0; j--) {
-            //printf("POWER: %d\n", power);
             num += (cyclic_permutation_array[i][j] * to_the_power(10, power++));
         }
         generated_numbers[i] = num;
@@ -118,7 +113,7 @@ int is_circular_prime(int input) {
 
     // DONE: Convert the arrays to numbers
 
-    //TODO: Check whether each of the numbers are prime numbers or not
+    // Check whether each of the numbers are prime numbers or not
     int is_all_prime = 0;
     for (int i = 0; i < digit_number; i++) {
         if (is_prime(generated_numbers[i]) == 1) {

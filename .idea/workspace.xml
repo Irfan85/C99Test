@@ -12,8 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6b5e961-c1d9-4da0-966f-7a2cf24120b1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Excercises/MatrixMaxProduct.c" beforeDir="false" afterPath="$PROJECT_DIR$/Excercises/MatrixMaxProduct.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Excercises/CircularPrime.c" beforeDir="false" afterPath="$PROJECT_DIR$/Excercises/CircularPrime.c" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -108,7 +107,7 @@
       <workItem from="1570869863609" duration="45000" />
       <workItem from="1571307972345" duration="1108000" />
       <workItem from="1571309705578" duration="30211000" />
-      <workItem from="1571385666945" duration="1082000" />
+      <workItem from="1571385666945" duration="1775000" />
     </task>
     <task id="LOCAL-00001" summary="v2">
       <created>1570824209071</created>
@@ -131,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571355285121</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="v3">
+      <created>1571386776825</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1571386776825</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
