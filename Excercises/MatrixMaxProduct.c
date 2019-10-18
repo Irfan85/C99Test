@@ -17,7 +17,7 @@ void get_sub_matrix(int source_matrix[][size], int start_row, int start_column, 
 }
 
 int maxProduct(int matrix[][size]){
-    //TODO: Get all (n x n) sub-matrices
+    // Iterate through all (n x n) sub-matrices
 
     scanf("%d", &n);
 
@@ -31,15 +31,17 @@ int maxProduct(int matrix[][size]){
         for(int j = 0; j < (size - n + 1); j++){
             get_sub_matrix(matrix, i, j, sub_matrix);
 
-            /*printf("*******************START******************\n");
+            /*printf("*******************DEBUG: START******************\n");
             for(int x = 0; x < n; x++){
                 for(int y = 0; y < n; y++){
                     printf("[%d][%d] = %d ", x, y, sub_matrix[x][y]);
                 }
                 printf("\n");
             }
-            printf("*******************END******************\n");*/
+            printf("*******************DEBUG: END******************\n");*/
 
+
+            // Find out the maximum product
             int temp_max_product = 0;
 
             int max_product_linear = 0;
@@ -94,17 +96,22 @@ int maxProduct(int matrix[][size]){
 
             if(temp_max_product > max_product){
                 max_product = temp_max_product;
+
+                // Record the start_X and start_y position of the sub-matrix where max_product is located
                 start_x = i;
                 start_y = j;
             }
         }
     }
 
+    // Retrieve the sub-matrix where max_product is located
     int targeted_matrix[n][n];
     int glorious_pairs[n][2];
 
     get_sub_matrix(matrix, start_x, start_y, targeted_matrix);
 
+    // Find whether max_product is located diagonally or anti-diagonally.
+    // If so, record the co-ordinates of those elements
 
     int prod_d = 1, prod_ad = 1;
 
@@ -114,19 +121,19 @@ int maxProduct(int matrix[][size]){
     }
 
     if(prod_d == max_product){
-        //printf("diagonal\n");
         for(int x = 0; x < n; x++){
             glorious_pairs[x][0] = x;
             glorious_pairs[x][1] = x;
         }
     }else if(prod_ad == max_product){
-        //printf("anti_diagonal\n");
         for(int x = 0; x < n; x++){
             glorious_pairs[n-1-x][0] = n-1-x;
             glorious_pairs[n-1-x][1] = n-1-x;
         }
     }else{
-        //printf("in the else section\n");
+        // If max_product is not located diagonally or anti-diagonally,
+        // look for the row or column where it is located and record the co-ordinates.
+
         for(int i = 0; i < n; i++){
             int prod_x = 1, prod_y = 1;
             for(int j = 0; j < n; j++){
@@ -135,15 +142,12 @@ int maxProduct(int matrix[][size]){
             }
 
             if(prod_x == max_product){
-                //printf("x\n");
                 for(int x = 0; x < n; x++){
                     glorious_pairs[x][0] = i;
                     glorious_pairs[x][1] = x;
                 }
                 break;
             }else if(prod_y == max_product){
-
-                //printf("y\n");
                 for(int x = 0; x < n; x++){
                     glorious_pairs[x][0] = x;
                     glorious_pairs[x][1] = i;
@@ -152,6 +156,8 @@ int maxProduct(int matrix[][size]){
             }
         }
     }
+
+    // Print an (n x 2) matrix containing the co-ordinates of the elements that make the max_product
 
     printf("[");
     for(int i = 0; i < n; i++){
@@ -165,12 +171,12 @@ int maxProduct(int matrix[][size]){
 
     }
 
-    //return value is just for testing purposes.
+    // Return value is just for testing purposes.
     return max_product;
 }
 
 int main(){
-    //TODO: Create a (size x size) matrix where size is the user input
+    // Create a (size x size) matrix where size is the user input
     scanf("%d", &size);
 
     int matrix[size][size];
