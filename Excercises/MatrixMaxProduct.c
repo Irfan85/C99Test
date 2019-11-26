@@ -175,7 +175,7 @@ int maxProduct(int matrix[][size]){
     return max_product;
 }
 
-int main(){
+int MatrixMaxProduct_main(){
     // Create a (size x size) matrix where size is the user input
     scanf("%d", &size);
 

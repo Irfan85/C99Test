@@ -1,14 +1,13 @@
 file(REMOVE_RECURSE
-  "C99Test.exe"
-  "C99Test.exe.manifest"
+  "C99Test"
   "C99Test.pdb"
-  "CMakeFiles/C99Test.dir/Excercises/CircularPrime.c.obj"
-  "CMakeFiles/C99Test.dir/Excercises/MatrixMaxProduct.c.obj"
-  "CMakeFiles/C99Test.dir/FIleIO/CopyPaste.c.obj"
-  "CMakeFiles/C99Test.dir/Misc/ExternalStorageClass.c.obj"
-  "CMakeFiles/C99Test.dir/Structures/DeckOfCards.c.obj"
-  "CMakeFiles/C99Test.dir/Structures/SimpleStructure.c.obj"
-  "libC99Test.dll.a"
+  "CMakeFiles/C99Test.dir/Excercises/CircularPrime.c.o"
+  "CMakeFiles/C99Test.dir/Excercises/MatrixMaxProduct.c.o"
+  "CMakeFiles/C99Test.dir/Excercises/Questions/DayCounter.c.o"
+  "CMakeFiles/C99Test.dir/FIleIO/CopyPaste.c.o"
+  "CMakeFiles/C99Test.dir/Misc/ExternalStorageClass.c.o"
+  "CMakeFiles/C99Test.dir/Structures/DeckOfCards.c.o"
+  "CMakeFiles/C99Test.dir/Structures/SimpleStructure.c.o"
 )
 
 # Per-language clean rules from dependency scanning.

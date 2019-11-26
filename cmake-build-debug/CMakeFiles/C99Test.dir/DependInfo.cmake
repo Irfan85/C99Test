@@ -4,12 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "E:/CLionProjects/C99Test/Excercises/CircularPrime.c" "E:/CLionProjects/C99Test/cmake-build-debug/CMakeFiles/C99Test.dir/Excercises/CircularPrime.c.obj"
-  "E:/CLionProjects/C99Test/Excercises/MatrixMaxProduct.c" "E:/CLionProjects/C99Test/cmake-build-debug/CMakeFiles/C99Test.dir/Excercises/MatrixMaxProduct.c.obj"
-  "E:/CLionProjects/C99Test/FIleIO/CopyPaste.c" "E:/CLionProjects/C99Test/cmake-build-debug/CMakeFiles/C99Test.dir/FIleIO/CopyPaste.c.obj"
-  "E:/CLionProjects/C99Test/Misc/ExternalStorageClass.c" "E:/CLionProjects/C99Test/cmake-build-debug/CMakeFiles/C99Test.dir/Misc/ExternalStorageClass.c.obj"
-  "E:/CLionProjects/C99Test/Structures/DeckOfCards.c" "E:/CLionProjects/C99Test/cmake-build-debug/CMakeFiles/C99Test.dir/Structures/DeckOfCards.c.obj"
-  "E:/CLionProjects/C99Test/Structures/SimpleStructure.c" "E:/CLionProjects/C99Test/cmake-build-debug/CMakeFiles/C99Test.dir/Structures/SimpleStructure.c.obj"
+  "/run/media/irfan/New Volume/CLionProjects/C99Test/Excercises/CircularPrime.c" "/run/media/irfan/New Volume/CLionProjects/C99Test/cmake-build-debug/CMakeFiles/C99Test.dir/Excercises/CircularPrime.c.o"
+  "/run/media/irfan/New Volume/CLionProjects/C99Test/Excercises/MatrixMaxProduct.c" "/run/media/irfan/New Volume/CLionProjects/C99Test/cmake-build-debug/CMakeFiles/C99Test.dir/Excercises/MatrixMaxProduct.c.o"
+  "/run/media/irfan/New Volume/CLionProjects/C99Test/Excercises/Questions/DayCounter.c" "/run/media/irfan/New Volume/CLionProjects/C99Test/cmake-build-debug/CMakeFiles/C99Test.dir/Excercises/Questions/DayCounter.c.o"
+  "/run/media/irfan/New Volume/CLionProjects/C99Test/FIleIO/CopyPaste.c" "/run/media/irfan/New Volume/CLionProjects/C99Test/cmake-build-debug/CMakeFiles/C99Test.dir/FIleIO/CopyPaste.c.o"
+  "/run/media/irfan/New Volume/CLionProjects/C99Test/Misc/ExternalStorageClass.c" "/run/media/irfan/New Volume/CLionProjects/C99Test/cmake-build-debug/CMakeFiles/C99Test.dir/Misc/ExternalStorageClass.c.o"
+  "/run/media/irfan/New Volume/CLionProjects/C99Test/Structures/DeckOfCards.c" "/run/media/irfan/New Volume/CLionProjects/C99Test/cmake-build-debug/CMakeFiles/C99Test.dir/Structures/DeckOfCards.c.o"
+  "/run/media/irfan/New Volume/CLionProjects/C99Test/Structures/SimpleStructure.c" "/run/media/irfan/New Volume/CLionProjects/C99Test/cmake-build-debug/CMakeFiles/C99Test.dir/Structures/SimpleStructure.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
