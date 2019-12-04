@@ -3,9 +3,11 @@
 
 CMakeFiles/C99Test.dir/Excercises/CircularPrime.c.o: ../Excercises/CircularPrime.c
 
+CMakeFiles/C99Test.dir/Excercises/DayCounter.c.o: ../Excercises/DayCounter.c
+
 CMakeFiles/C99Test.dir/Excercises/MatrixMaxProduct.c.o: ../Excercises/MatrixMaxProduct.c
 
-CMakeFiles/C99Test.dir/Excercises/Questions/DayCounter.c.o: ../Excercises/Questions/DayCounter.c
+CMakeFiles/C99Test.dir/Excercises/Questions/dis.c.o: ../Excercises/Questions/dis.c
 
 CMakeFiles/C99Test.dir/FIleIO/CopyPaste.c.o: ../FIleIO/CopyPaste.c
 

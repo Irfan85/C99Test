@@ -79,10 +79,13 @@
 		<Unit filename="/run/media/irfan/New Volume/CLionProjects/C99Test/Excercises/CircularPrime.c">
 			<Option target="C99Test"/>
 		</Unit>
+		<Unit filename="/run/media/irfan/New Volume/CLionProjects/C99Test/Excercises/DayCounter.c">
+			<Option target="C99Test"/>
+		</Unit>
 		<Unit filename="/run/media/irfan/New Volume/CLionProjects/C99Test/Excercises/MatrixMaxProduct.c">
 			<Option target="C99Test"/>
 		</Unit>
-		<Unit filename="/run/media/irfan/New Volume/CLionProjects/C99Test/Excercises/Questions/DayCounter.c">
+		<Unit filename="/run/media/irfan/New Volume/CLionProjects/C99Test/Excercises/Questions/dis.c">
 			<Option target="C99Test"/>
 		</Unit>
 		<Unit filename="/run/media/irfan/New Volume/CLionProjects/C99Test/FIleIO/CopyPaste.c">

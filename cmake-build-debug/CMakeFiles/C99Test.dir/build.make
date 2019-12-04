@@ -34,10 +34,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/irfan/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.7142.39/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/irfan/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.5233.103/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/irfan/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.7142.39/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/irfan/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.5233.103/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -135,18 +135,31 @@ CMakeFiles/C99Test.dir/Excercises/MatrixMaxProduct.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C99Test.dir/Excercises/MatrixMaxProduct.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/run/media/irfan/New Volume/CLionProjects/C99Test/Excercises/MatrixMaxProduct.c" -o CMakeFiles/C99Test.dir/Excercises/MatrixMaxProduct.c.s
 
-CMakeFiles/C99Test.dir/Excercises/Questions/DayCounter.c.o: CMakeFiles/C99Test.dir/flags.make
-CMakeFiles/C99Test.dir/Excercises/Questions/DayCounter.c.o: ../Excercises/Questions/DayCounter.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/run/media/irfan/New Volume/CLionProjects/C99Test/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/C99Test.dir/Excercises/Questions/DayCounter.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/C99Test.dir/Excercises/Questions/DayCounter.c.o   -c "/run/media/irfan/New Volume/CLionProjects/C99Test/Excercises/Questions/DayCounter.c"
+CMakeFiles/C99Test.dir/Excercises/DayCounter.c.o: CMakeFiles/C99Test.dir/flags.make
+CMakeFiles/C99Test.dir/Excercises/DayCounter.c.o: ../Excercises/DayCounter.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/run/media/irfan/New Volume/CLionProjects/C99Test/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/C99Test.dir/Excercises/DayCounter.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/C99Test.dir/Excercises/DayCounter.c.o   -c "/run/media/irfan/New Volume/CLionProjects/C99Test/Excercises/DayCounter.c"
 
-CMakeFiles/C99Test.dir/Excercises/Questions/DayCounter.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/C99Test.dir/Excercises/Questions/DayCounter.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/run/media/irfan/New Volume/CLionProjects/C99Test/Excercises/Questions/DayCounter.c" > CMakeFiles/C99Test.dir/Excercises/Questions/DayCounter.c.i
+CMakeFiles/C99Test.dir/Excercises/DayCounter.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/C99Test.dir/Excercises/DayCounter.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/run/media/irfan/New Volume/CLionProjects/C99Test/Excercises/DayCounter.c" > CMakeFiles/C99Test.dir/Excercises/DayCounter.c.i
 
-CMakeFiles/C99Test.dir/Excercises/Questions/DayCounter.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C99Test.dir/Excercises/Questions/DayCounter.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/run/media/irfan/New Volume/CLionProjects/C99Test/Excercises/Questions/DayCounter.c" -o CMakeFiles/C99Test.dir/Excercises/Questions/DayCounter.c.s
+CMakeFiles/C99Test.dir/Excercises/DayCounter.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C99Test.dir/Excercises/DayCounter.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/run/media/irfan/New Volume/CLionProjects/C99Test/Excercises/DayCounter.c" -o CMakeFiles/C99Test.dir/Excercises/DayCounter.c.s
+
+CMakeFiles/C99Test.dir/Excercises/Questions/dis.c.o: CMakeFiles/C99Test.dir/flags.make
+CMakeFiles/C99Test.dir/Excercises/Questions/dis.c.o: ../Excercises/Questions/dis.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/run/media/irfan/New Volume/CLionProjects/C99Test/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/C99Test.dir/Excercises/Questions/dis.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/C99Test.dir/Excercises/Questions/dis.c.o   -c "/run/media/irfan/New Volume/CLionProjects/C99Test/Excercises/Questions/dis.c"
+
+CMakeFiles/C99Test.dir/Excercises/Questions/dis.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/C99Test.dir/Excercises/Questions/dis.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/run/media/irfan/New Volume/CLionProjects/C99Test/Excercises/Questions/dis.c" > CMakeFiles/C99Test.dir/Excercises/Questions/dis.c.i
+
+CMakeFiles/C99Test.dir/Excercises/Questions/dis.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C99Test.dir/Excercises/Questions/dis.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/run/media/irfan/New Volume/CLionProjects/C99Test/Excercises/Questions/dis.c" -o CMakeFiles/C99Test.dir/Excercises/Questions/dis.c.s
 
 # Object files for target C99Test
 C99Test_OBJECTS = \
@@ -156,7 +169,8 @@ C99Test_OBJECTS = \
 "CMakeFiles/C99Test.dir/Excercises/CircularPrime.c.o" \
 "CMakeFiles/C99Test.dir/Misc/ExternalStorageClass.c.o" \
 "CMakeFiles/C99Test.dir/Excercises/MatrixMaxProduct.c.o" \
-"CMakeFiles/C99Test.dir/Excercises/Questions/DayCounter.c.o"
+"CMakeFiles/C99Test.dir/Excercises/DayCounter.c.o" \
+"CMakeFiles/C99Test.dir/Excercises/Questions/dis.c.o"
 
 # External object files for target C99Test
 C99Test_EXTERNAL_OBJECTS =
@@ -167,10 +181,11 @@ C99Test: CMakeFiles/C99Test.dir/Structures/DeckOfCards.c.o
 C99Test: CMakeFiles/C99Test.dir/Excercises/CircularPrime.c.o
 C99Test: CMakeFiles/C99Test.dir/Misc/ExternalStorageClass.c.o
 C99Test: CMakeFiles/C99Test.dir/Excercises/MatrixMaxProduct.c.o
-C99Test: CMakeFiles/C99Test.dir/Excercises/Questions/DayCounter.c.o
+C99Test: CMakeFiles/C99Test.dir/Excercises/DayCounter.c.o
+C99Test: CMakeFiles/C99Test.dir/Excercises/Questions/dis.c.o
 C99Test: CMakeFiles/C99Test.dir/build.make
 C99Test: CMakeFiles/C99Test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/run/media/irfan/New Volume/CLionProjects/C99Test/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Linking C executable C99Test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/run/media/irfan/New Volume/CLionProjects/C99Test/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Linking C executable C99Test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/C99Test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -39,10 +39,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/irfan/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.7142.39/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/irfan/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.5233.103/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/irfan/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.7142.39/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/irfan/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.5233.103/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = "/run/media/irfan/New Volume/CLionProjects/C99Test/cmake-buil
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/irfan/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.7142.39/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/irfan/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.5233.103/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/irfan/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.7142.39/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/irfan/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.5233.103/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -150,6 +150,33 @@ Excercises/CircularPrime.c.s:
 	$(MAKE) -f CMakeFiles/C99Test.dir/build.make CMakeFiles/C99Test.dir/Excercises/CircularPrime.c.s
 .PHONY : Excercises/CircularPrime.c.s
 
+Excercises/DayCounter.o: Excercises/DayCounter.c.o
+
+.PHONY : Excercises/DayCounter.o
+
+# target to build an object file
+Excercises/DayCounter.c.o:
+	$(MAKE) -f CMakeFiles/C99Test.dir/build.make CMakeFiles/C99Test.dir/Excercises/DayCounter.c.o
+.PHONY : Excercises/DayCounter.c.o
+
+Excercises/DayCounter.i: Excercises/DayCounter.c.i
+
+.PHONY : Excercises/DayCounter.i
+
+# target to preprocess a source file
+Excercises/DayCounter.c.i:
+	$(MAKE) -f CMakeFiles/C99Test.dir/build.make CMakeFiles/C99Test.dir/Excercises/DayCounter.c.i
+.PHONY : Excercises/DayCounter.c.i
+
+Excercises/DayCounter.s: Excercises/DayCounter.c.s
+
+.PHONY : Excercises/DayCounter.s
+
+# target to generate assembly for a file
+Excercises/DayCounter.c.s:
+	$(MAKE) -f CMakeFiles/C99Test.dir/build.make CMakeFiles/C99Test.dir/Excercises/DayCounter.c.s
+.PHONY : Excercises/DayCounter.c.s
+
 Excercises/MatrixMaxProduct.o: Excercises/MatrixMaxProduct.c.o
 
 .PHONY : Excercises/MatrixMaxProduct.o
@@ -177,32 +204,32 @@ Excercises/MatrixMaxProduct.c.s:
 	$(MAKE) -f CMakeFiles/C99Test.dir/build.make CMakeFiles/C99Test.dir/Excercises/MatrixMaxProduct.c.s
 .PHONY : Excercises/MatrixMaxProduct.c.s
 
-Excercises/Questions/DayCounter.o: Excercises/Questions/DayCounter.c.o
+Excercises/Questions/dis.o: Excercises/Questions/dis.c.o
 
-.PHONY : Excercises/Questions/DayCounter.o
+.PHONY : Excercises/Questions/dis.o
 
 # target to build an object file
-Excercises/Questions/DayCounter.c.o:
-	$(MAKE) -f CMakeFiles/C99Test.dir/build.make CMakeFiles/C99Test.dir/Excercises/Questions/DayCounter.c.o
-.PHONY : Excercises/Questions/DayCounter.c.o
+Excercises/Questions/dis.c.o:
+	$(MAKE) -f CMakeFiles/C99Test.dir/build.make CMakeFiles/C99Test.dir/Excercises/Questions/dis.c.o
+.PHONY : Excercises/Questions/dis.c.o
 
-Excercises/Questions/DayCounter.i: Excercises/Questions/DayCounter.c.i
+Excercises/Questions/dis.i: Excercises/Questions/dis.c.i
 
-.PHONY : Excercises/Questions/DayCounter.i
+.PHONY : Excercises/Questions/dis.i
 
 # target to preprocess a source file
-Excercises/Questions/DayCounter.c.i:
-	$(MAKE) -f CMakeFiles/C99Test.dir/build.make CMakeFiles/C99Test.dir/Excercises/Questions/DayCounter.c.i
-.PHONY : Excercises/Questions/DayCounter.c.i
+Excercises/Questions/dis.c.i:
+	$(MAKE) -f CMakeFiles/C99Test.dir/build.make CMakeFiles/C99Test.dir/Excercises/Questions/dis.c.i
+.PHONY : Excercises/Questions/dis.c.i
 
-Excercises/Questions/DayCounter.s: Excercises/Questions/DayCounter.c.s
+Excercises/Questions/dis.s: Excercises/Questions/dis.c.s
 
-.PHONY : Excercises/Questions/DayCounter.s
+.PHONY : Excercises/Questions/dis.s
 
 # target to generate assembly for a file
-Excercises/Questions/DayCounter.c.s:
-	$(MAKE) -f CMakeFiles/C99Test.dir/build.make CMakeFiles/C99Test.dir/Excercises/Questions/DayCounter.c.s
-.PHONY : Excercises/Questions/DayCounter.c.s
+Excercises/Questions/dis.c.s:
+	$(MAKE) -f CMakeFiles/C99Test.dir/build.make CMakeFiles/C99Test.dir/Excercises/Questions/dis.c.s
+.PHONY : Excercises/Questions/dis.c.s
 
 FIleIO/CopyPaste.o: FIleIO/CopyPaste.c.o
 
@@ -324,12 +351,15 @@ help:
 	@echo "... Excercises/CircularPrime.o"
 	@echo "... Excercises/CircularPrime.i"
 	@echo "... Excercises/CircularPrime.s"
+	@echo "... Excercises/DayCounter.o"
+	@echo "... Excercises/DayCounter.i"
+	@echo "... Excercises/DayCounter.s"
 	@echo "... Excercises/MatrixMaxProduct.o"
 	@echo "... Excercises/MatrixMaxProduct.i"
 	@echo "... Excercises/MatrixMaxProduct.s"
-	@echo "... Excercises/Questions/DayCounter.o"
-	@echo "... Excercises/Questions/DayCounter.i"
-	@echo "... Excercises/Questions/DayCounter.s"
+	@echo "... Excercises/Questions/dis.o"
+	@echo "... Excercises/Questions/dis.i"
+	@echo "... Excercises/Questions/dis.s"
 	@echo "... FIleIO/CopyPaste.o"
 	@echo "... FIleIO/CopyPaste.i"
 	@echo "... FIleIO/CopyPaste.s"
