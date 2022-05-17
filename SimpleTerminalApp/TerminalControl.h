@@ -5,6 +5,7 @@ printing the appropiate escape sequences */
 #define TerminalControl
 
 #include <sys/ioctl.h> // This header is needed for requesting various system calls
+#include <termios.h>
 
 /* The definitions below refer to the escape sequences that
 tells the kernel to switch terminal color.*/
@@ -45,5 +46,39 @@ tells the kernel to switch terminal color.*/
 
 // This macro will move the cursor
 #define tc_move_cursor(X, Y) printf("\033[%d;%dH", Y, X)
+
+// This function will return the terminal window size
+void tc_get_cols_rows(int *cols, int *rows);
+
+void tc_get_cols_rows(int *cols, int*rows) {
+    struct winsize size;
+    ioctl(1, TIOCGWINSZ, &size);
+    *cols = size.ws_col;
+    *rows = size.ws_row;
+}
+
+// This macros will get the program in or out of an alternative screen just like programs like nano
+#define tc_enter_alt_screen() puts("\033[?1049h\033[H")
+#define tc_exit_alt_screen() puts("\033[?1049l")
+
+// This funciton turns off echoing/outputting the input characters in the terminal
+void tc_echo_off();
+
+void tc_echo_off() {
+    struct termios term;
+    tcgetattr(1, &term);
+    term.c_lflag &= ~ECHO;
+    tcsetattr(1, TCSANOW, &term);
+}
+
+// This funciton turns on echoing/outputting the input characters in the terminal
+void tc_echo_on();
+
+void tc_echo_on() {
+    struct termios term;
+    tcgetattr(1, &term);
+    term.c_lflag |= ECHO;
+    tcsetattr(1, TCSANOW, &term);
+}
 
 #endif
