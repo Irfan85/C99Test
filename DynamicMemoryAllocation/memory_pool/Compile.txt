@@ -1,0 +1,3 @@
+Run this command in the terminal:
+
+gcc memoryPoolManager.c main.c

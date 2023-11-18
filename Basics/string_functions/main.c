@@ -1,5 +1,6 @@
 #include<stdio.h>
-#include<string.h>
+#include<string.h> // This contains necessary string functions.
+#include<stdlib.h> // This contains the "strtol" function.
 
 int main(int argc, char const *argv[])
 {
@@ -37,6 +38,23 @@ int main(int argc, char const *argv[])
   // In Unix, we're using it's safer variant "strncmp".
   int comparisonResult = strncmp(fruitName, "Apple", sizeof(fruitName) - 1);
   printf("%d\n", comparisonResult);
+
+  // Converting string to integer (long) (strtol)
+  // This function is used for parsing an integer (long) from a string.
+  // It takes string pointer as its second parameter where it stores the non-numeric part
+  // of the string. We can pass NULL pointer there if we don't need that. It takes the
+  // base of the number to be parsed as its third parameter. For decimal numbers,
+  // it would be 10.
+  char* sampleString = "12345 This is a test 123.";
+  long parsedNumber;
+  char* nonNumericPart;
+
+  // Note that the function will parsed only if the given string STARTS with a number. It will
+  // only parse the FIRST numeric part.
+  parsedNumber = strtol(sampleString, &nonNumericPart, 10);
+
+  printf("Parsed number: %ld\n", parsedNumber);
+  puts(nonNumericPart);
 
   return 0;
 }
