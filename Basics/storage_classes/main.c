@@ -31,6 +31,10 @@ int main(int argc, char const *argv[])
   // The "static" (default for global variablesa) class type.
   // These variables live througout the program's lifetime. So, only a single copy of this
   // is shared throutout the program.
+  // While creating a library the API functions are put in header files whereas internal
+  // functions are put in the source files. It's recommended to make these internal
+  // functions static. This is becaue static functions are only callable from within the
+  // source file. Without "static" keyword, functions are global by default.
   static int c = 30;
 
   // The "extern" storage class is used for referring to a variable/function that is declared in

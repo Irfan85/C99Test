@@ -1,9 +1,18 @@
 {
-    "files.associations": {
-        "stdio.h": "c",
-        "ioctls.h": "c",
-        "signal.h": "c",
-        "ioctl.h": "c",
-        "termios.h": "c"
-    }
+  "files.associations": {
+    ".php_cs": "php",
+    ".php_cs.dist": "php",
+    "stdio.h": "c",
+    "ioctls.h": "c",
+    "signal.h": "c",
+    "ioctl.h": "c",
+    "termios.h": "c",
+    "stdarg.h": "c",
+    "a.out.h": "c",
+    "ext4.h": "c",
+    "fiemap.h": "c",
+    "binder.h": "c",
+    "binderfs.h": "c",
+    "cpuid.h": "c"
+  }
 }
