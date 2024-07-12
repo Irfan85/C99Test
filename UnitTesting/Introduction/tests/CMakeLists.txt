@@ -1,0 +1,5 @@
+project(Introduction_Tests)
+
+add_executable(Introduction_Tests_Run DummyTests.cpp)
+
+target_link_libraries(Introduction_Tests_Run calculator_lib)

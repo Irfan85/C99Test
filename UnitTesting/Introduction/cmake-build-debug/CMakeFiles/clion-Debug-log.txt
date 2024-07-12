@@ -1,0 +1,16 @@
+/home/irfan/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/irfan/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -G Ninja -S /run/media/irfan/Personal/Projects/C-Projects/C-Test/UnitTesting/Introduction -B /run/media/irfan/Personal/Projects/C-Projects/C-Test/UnitTesting/Introduction/cmake-build-debug
+-- The C compiler identification is GNU 13.2.1
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/lib64/ccache/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- The CXX compiler identification is GNU 13.2.1
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/lib64/ccache/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (1.7s)
+-- Generating done (0.0s)
+-- Build files have been written to: /run/media/irfan/Personal/Projects/C-Projects/C-Test/UnitTesting/Introduction/cmake-build-debug

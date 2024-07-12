@@ -1,0 +1,8 @@
+# ninja log v5
+0	47	1701158478299698300	CMakeFiles/Introduction.dir/main.cpp.o	e3d20b1f0af9374d
+68	93	1701162285517039000	Introduction	6ddd73e7076cfd76
+35	68	1701162285491039100	calculator/libcalculator_lib.a	a1b5ff40401b5373
+0	35	1701162285453039200	calculator/CMakeFiles/calculator_lib.dir/Calculator.c.o	d62188d002683777
+0	40	1701162285463039200	CMakeFiles/Introduction.dir/main.c.o	bdf5aa8768b033b8
+1	11249	1701228006292188600	tests/CMakeFiles/Introduction_Tests_Run.dir/DummyTests.cpp.o	980f6983f34a94ae
+11249	11580	1701228006755185000	tests/Introduction_Tests_Run	3122b854e6732089

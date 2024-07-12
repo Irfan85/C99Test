@@ -1,0 +1,9 @@
+/run/media/irfan/Personal/Projects/C-Projects/C-Test/UnitTesting/Introduction/cmake-build-debug/CMakeFiles/Introduction.dir
+/run/media/irfan/Personal/Projects/C-Projects/C-Test/UnitTesting/Introduction/cmake-build-debug/CMakeFiles/edit_cache.dir
+/run/media/irfan/Personal/Projects/C-Projects/C-Test/UnitTesting/Introduction/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/run/media/irfan/Personal/Projects/C-Projects/C-Test/UnitTesting/Introduction/cmake-build-debug/calculator/CMakeFiles/calculator_lib.dir
+/run/media/irfan/Personal/Projects/C-Projects/C-Test/UnitTesting/Introduction/cmake-build-debug/calculator/CMakeFiles/edit_cache.dir
+/run/media/irfan/Personal/Projects/C-Projects/C-Test/UnitTesting/Introduction/cmake-build-debug/calculator/CMakeFiles/rebuild_cache.dir
+/run/media/irfan/Personal/Projects/C-Projects/C-Test/UnitTesting/Introduction/cmake-build-debug/tests/CMakeFiles/Introduction_Tests_Run.dir
+/run/media/irfan/Personal/Projects/C-Projects/C-Test/UnitTesting/Introduction/cmake-build-debug/tests/CMakeFiles/edit_cache.dir
+/run/media/irfan/Personal/Projects/C-Projects/C-Test/UnitTesting/Introduction/cmake-build-debug/tests/CMakeFiles/rebuild_cache.dir
